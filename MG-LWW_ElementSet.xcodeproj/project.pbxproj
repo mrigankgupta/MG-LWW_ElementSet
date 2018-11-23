@@ -36,6 +36,7 @@
 		3A15063B21A6D08A00549131 /* MG-LWW_ElementSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MG-LWW_ElementSetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A15063F21A6D08A00549131 /* MG_LWW_ElementSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_LWW_ElementSetTests.swift; sourceTree = "<group>"; };
 		3A15064121A6D08A00549131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A15064A21A6D15000549131 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		3A15062921A6D08900549131 /* MG-LWW_ElementSet */ = {
 			isa = PBXGroup;
 			children = (
+				3A15064A21A6D15000549131 /* MyPlayground.playground */,
 				3A15062A21A6D08900549131 /* AppDelegate.swift */,
 				3A15062C21A6D08900549131 /* ViewController.swift */,
 				3A15062E21A6D08900549131 /* Main.storyboard */,
