@@ -7,50 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A15062B21A6D08900549131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15062A21A6D08900549131 /* AppDelegate.swift */; };
-		3A15062D21A6D08900549131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15062C21A6D08900549131 /* ViewController.swift */; };
-		3A15063021A6D08900549131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A15062E21A6D08900549131 /* Main.storyboard */; };
-		3A15063221A6D08A00549131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A15063121A6D08A00549131 /* Assets.xcassets */; };
-		3A15063521A6D08A00549131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A15063321A6D08A00549131 /* LaunchScreen.storyboard */; };
-		3A15064021A6D08A00549131 /* MG_LWW_ElementSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15063F21A6D08A00549131 /* MG_LWW_ElementSetTests.swift */; };
+		3A6B917121AA3B0D0022AE71 /* LWWElementSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B916821AA3B0D0022AE71 /* LWWElementSet.framework */; };
+		3A6B917821AA3B0D0022AE71 /* LWWElementSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B917721AA3B0D0022AE71 /* LWWElementSetTests.swift */; };
+		3A6B917A21AA3B0D0022AE71 /* LWWElementSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6B916A21AA3B0D0022AE71 /* LWWElementSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6B918621AA3BA10022AE71 /* LWWElementSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B916021AA3A6F0022AE71 /* LWWElementSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A15063C21A6D08A00549131 /* PBXContainerItemProxy */ = {
+		3A6B917221AA3B0D0022AE71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3A15061F21A6D08900549131 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A15062621A6D08900549131;
-			remoteInfo = "MG-LWW_ElementSet";
+			remoteGlobalIDString = 3A6B916721AA3B0D0022AE71;
+			remoteInfo = LWWElementSet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A15062721A6D08900549131 /* MG-LWW_ElementSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MG-LWW_ElementSet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A15062A21A6D08900549131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A15062C21A6D08900549131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A15062F21A6D08900549131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A15063121A6D08A00549131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A15063421A6D08A00549131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A15063621A6D08A00549131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A15063B21A6D08A00549131 /* MG-LWW_ElementSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MG-LWW_ElementSetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A15063F21A6D08A00549131 /* MG_LWW_ElementSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_LWW_ElementSetTests.swift; sourceTree = "<group>"; };
-		3A15064121A6D08A00549131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A15064A21A6D15000549131 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3A6B916021AA3A6F0022AE71 /* LWWElementSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementSet.swift; sourceTree = "<group>"; };
+		3A6B916821AA3B0D0022AE71 /* LWWElementSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWWElementSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6B916A21AA3B0D0022AE71 /* LWWElementSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWWElementSet.h; sourceTree = "<group>"; };
+		3A6B916B21AA3B0D0022AE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6B917021AA3B0D0022AE71 /* LWWElementSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWWElementSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6B917721AA3B0D0022AE71 /* LWWElementSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementSetTests.swift; sourceTree = "<group>"; };
+		3A6B917921AA3B0D0022AE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A15062421A6D08900549131 /* Frameworks */ = {
+		3A6B916521AA3B0D0022AE71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A15063821A6D08A00549131 /* Frameworks */ = {
+		3A6B916D21AA3B0D0022AE71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6B917121AA3B0D0022AE71 /* LWWElementSet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				3A15062921A6D08900549131 /* MG-LWW_ElementSet */,
-				3A15063E21A6D08A00549131 /* MG-LWW_ElementSetTests */,
+				3A6B916921AA3B0D0022AE71 /* LWWElementSet */,
+				3A6B917621AA3B0D0022AE71 /* LWWElementSetTests */,
 				3A15062821A6D08900549131 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +67,8 @@
 		3A15062821A6D08900549131 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A15062721A6D08900549131 /* MG-LWW_ElementSet.app */,
-				3A15063B21A6D08A00549131 /* MG-LWW_ElementSetTests.xctest */,
+				3A6B916821AA3B0D0022AE71 /* LWWElementSet.framework */,
+				3A6B917021AA3B0D0022AE71 /* LWWElementSetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,61 +77,78 @@
 			isa = PBXGroup;
 			children = (
 				3A15064A21A6D15000549131 /* MyPlayground.playground */,
-				3A15062A21A6D08900549131 /* AppDelegate.swift */,
-				3A15062C21A6D08900549131 /* ViewController.swift */,
-				3A15062E21A6D08900549131 /* Main.storyboard */,
-				3A15063121A6D08A00549131 /* Assets.xcassets */,
-				3A15063321A6D08A00549131 /* LaunchScreen.storyboard */,
 				3A15063621A6D08A00549131 /* Info.plist */,
 			);
 			path = "MG-LWW_ElementSet";
 			sourceTree = "<group>";
 		};
-		3A15063E21A6D08A00549131 /* MG-LWW_ElementSetTests */ = {
+		3A6B916921AA3B0D0022AE71 /* LWWElementSet */ = {
 			isa = PBXGroup;
 			children = (
-				3A15063F21A6D08A00549131 /* MG_LWW_ElementSetTests.swift */,
-				3A15064121A6D08A00549131 /* Info.plist */,
+				3A6B916021AA3A6F0022AE71 /* LWWElementSet.swift */,
+				3A6B916A21AA3B0D0022AE71 /* LWWElementSet.h */,
+				3A6B916B21AA3B0D0022AE71 /* Info.plist */,
 			);
-			path = "MG-LWW_ElementSetTests";
+			path = LWWElementSet;
+			sourceTree = "<group>";
+		};
+		3A6B917621AA3B0D0022AE71 /* LWWElementSetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B917721AA3B0D0022AE71 /* LWWElementSetTests.swift */,
+				3A6B917921AA3B0D0022AE71 /* Info.plist */,
+			);
+			path = LWWElementSetTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		3A15062621A6D08900549131 /* MG-LWW_ElementSet */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3A15064421A6D08A00549131 /* Build configuration list for PBXNativeTarget "MG-LWW_ElementSet" */;
-			buildPhases = (
-				3A15062321A6D08900549131 /* Sources */,
-				3A15062421A6D08900549131 /* Frameworks */,
-				3A15062521A6D08900549131 /* Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		3A6B916321AA3B0D0022AE71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6B917A21AA3B0D0022AE71 /* LWWElementSet.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MG-LWW_ElementSet";
-			productName = "MG-LWW_ElementSet";
-			productReference = 3A15062721A6D08900549131 /* MG-LWW_ElementSet.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A15063A21A6D08A00549131 /* MG-LWW_ElementSetTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A6B916721AA3B0D0022AE71 /* LWWElementSet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A15064721A6D08A00549131 /* Build configuration list for PBXNativeTarget "MG-LWW_ElementSetTests" */;
+			buildConfigurationList = 3A6B917F21AA3B0D0022AE71 /* Build configuration list for PBXNativeTarget "LWWElementSet" */;
 			buildPhases = (
-				3A15063721A6D08A00549131 /* Sources */,
-				3A15063821A6D08A00549131 /* Frameworks */,
-				3A15063921A6D08A00549131 /* Resources */,
+				3A6B916321AA3B0D0022AE71 /* Headers */,
+				3A6B916421AA3B0D0022AE71 /* Sources */,
+				3A6B916521AA3B0D0022AE71 /* Frameworks */,
+				3A6B916621AA3B0D0022AE71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A15063D21A6D08A00549131 /* PBXTargetDependency */,
 			);
-			name = "MG-LWW_ElementSetTests";
-			productName = "MG-LWW_ElementSetTests";
-			productReference = 3A15063B21A6D08A00549131 /* MG-LWW_ElementSetTests.xctest */;
+			name = LWWElementSet;
+			productName = LWWElementSet;
+			productReference = 3A6B916821AA3B0D0022AE71 /* LWWElementSet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A6B916F21AA3B0D0022AE71 /* LWWElementSetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6B918321AA3B0D0022AE71 /* Build configuration list for PBXNativeTarget "LWWElementSetTests" */;
+			buildPhases = (
+				3A6B916C21AA3B0D0022AE71 /* Sources */,
+				3A6B916D21AA3B0D0022AE71 /* Frameworks */,
+				3A6B916E21AA3B0D0022AE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6B917321AA3B0D0022AE71 /* PBXTargetDependency */,
+			);
+			name = LWWElementSetTests;
+			productName = LWWElementSetTests;
+			productReference = 3A6B917021AA3B0D0022AE71 /* LWWElementSetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,12 +161,11 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Gupta, Mrigank";
 				TargetAttributes = {
-					3A15062621A6D08900549131 = {
+					3A6B916721AA3B0D0022AE71 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					3A15063A21A6D08A00549131 = {
+					3A6B916F21AA3B0D0022AE71 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3A15062621A6D08900549131;
 					};
 				};
 			};
@@ -168,24 +182,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A15062621A6D08900549131 /* MG-LWW_ElementSet */,
-				3A15063A21A6D08A00549131 /* MG-LWW_ElementSetTests */,
+				3A6B916721AA3B0D0022AE71 /* LWWElementSet */,
+				3A6B916F21AA3B0D0022AE71 /* LWWElementSetTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A15062521A6D08900549131 /* Resources */ = {
+		3A6B916621AA3B0D0022AE71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A15063521A6D08A00549131 /* LaunchScreen.storyboard in Resources */,
-				3A15063221A6D08A00549131 /* Assets.xcassets in Resources */,
-				3A15063021A6D08900549131 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A15063921A6D08A00549131 /* Resources */ = {
+		3A6B916E21AA3B0D0022AE71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,51 +206,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A15062321A6D08900549131 /* Sources */ = {
+		3A6B916421AA3B0D0022AE71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A15062D21A6D08900549131 /* ViewController.swift in Sources */,
-				3A15062B21A6D08900549131 /* AppDelegate.swift in Sources */,
+				3A6B918621AA3BA10022AE71 /* LWWElementSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A15063721A6D08A00549131 /* Sources */ = {
+		3A6B916C21AA3B0D0022AE71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A15064021A6D08A00549131 /* MG_LWW_ElementSetTests.swift in Sources */,
+				3A6B917821AA3B0D0022AE71 /* LWWElementSetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A15063D21A6D08A00549131 /* PBXTargetDependency */ = {
+		3A6B917321AA3B0D0022AE71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A15062621A6D08900549131 /* MG-LWW_ElementSet */;
-			targetProxy = 3A15063C21A6D08A00549131 /* PBXContainerItemProxy */;
+			target = 3A6B916721AA3B0D0022AE71 /* LWWElementSet */;
+			targetProxy = 3A6B917221AA3B0D0022AE71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3A15062E21A6D08900549131 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A15062F21A6D08900549131 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A15063321A6D08A00549131 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A15063421A6D08A00549131 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3A15064221A6D08A00549131 /* Debug */ = {
@@ -358,77 +349,93 @@
 			};
 			name = Release;
 		};
-		3A15064521A6D08A00549131 /* Debug */ = {
+		3A6B918021AA3B0D0022AE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MG-LWW_ElementSet/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWWElementSet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cogicx.MG-LWW-ElementSet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cogicx.LWWElementSet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3A15064621A6D08A00549131 /* Release */ = {
+		3A6B918121AA3B0D0022AE71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MG-LWW_ElementSet/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWWElementSet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cogicx.MG-LWW-ElementSet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cogicx.LWWElementSet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3A15064821A6D08A00549131 /* Debug */ = {
+		3A6B918421AA3B0D0022AE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MG-LWW_ElementSetTests/Info.plist";
+				INFOPLIST_FILE = LWWElementSetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cogicx.MG-LWW-ElementSetTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cogicx.LWWElementSetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MG-LWW_ElementSet.app/MG-LWW_ElementSet";
 			};
 			name = Debug;
 		};
-		3A15064921A6D08A00549131 /* Release */ = {
+		3A6B918521AA3B0D0022AE71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MG-LWW_ElementSetTests/Info.plist";
+				INFOPLIST_FILE = LWWElementSetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cogicx.MG-LWW-ElementSetTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cogicx.LWWElementSetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MG-LWW_ElementSet.app/MG-LWW_ElementSet";
 			};
 			name = Release;
 		};
@@ -444,20 +451,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A15064421A6D08A00549131 /* Build configuration list for PBXNativeTarget "MG-LWW_ElementSet" */ = {
+		3A6B917F21AA3B0D0022AE71 /* Build configuration list for PBXNativeTarget "LWWElementSet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A15064521A6D08A00549131 /* Debug */,
-				3A15064621A6D08A00549131 /* Release */,
+				3A6B918021AA3B0D0022AE71 /* Debug */,
+				3A6B918121AA3B0D0022AE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A15064721A6D08A00549131 /* Build configuration list for PBXNativeTarget "MG-LWW_ElementSetTests" */ = {
+		3A6B918321AA3B0D0022AE71 /* Build configuration list for PBXNativeTarget "LWWElementSetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A15064821A6D08A00549131 /* Debug */,
-				3A15064921A6D08A00549131 /* Release */,
+				3A6B918421AA3B0D0022AE71 /* Debug */,
+				3A6B918521AA3B0D0022AE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
