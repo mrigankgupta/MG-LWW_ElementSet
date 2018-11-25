@@ -5,32 +5,106 @@ import Foundation
  */
 protocol LWWElementSet {
     associatedtype T : Hashable
-    func add(timestamp: TimeInterval, value: T)
-    func remove(timestamp: TimeInterval, value: T)
-    func exist(_ value: T)
-    func merge()
+    mutating func add(timeStamp: TimeInterval, value: T)
+    mutating func remove(timeStamp: TimeInterval, value: T)
+    func exist(_ value: T) -> Bool
+    func merge() -> [T]
 }
 
-struct ElementSet < H: Hashable> {
-
+struct ElementSet <H: Hashable> {
+    var addSet = [H: TimeInterval]()
+    var removeSet = [H: TimeInterval]()
 }
 
 extension ElementSet: LWWElementSet {
     typealias T = H
 
-    func add(timestamp: TimeInterval, value: H) {
+    mutating func add(timeStamp: TimeInterval, value: H) {
+
+
+        let lastRemoved = removeSet[value]
+        if lastRemoved != nil {
+            if timeStamp > lastRemoved! {
+                removeSet.removeValue(forKey: value)
+                addSet[value] = timeStamp
+            }
+        }else {
+            let lastAdded = addSet[value]
+            if lastAdded == nil || timeStamp > lastAdded! {
+                addSet[value] = timeStamp
+            }
+        }
 
     }
 
-    func remove(timestamp: TimeInterval, value: H) {
-
+    mutating func remove(timeStamp: TimeInterval, value: H) {
+        let lastAdded = addSet[value]
+        if lastAdded != nil {
+            if timeStamp > lastAdded! {
+                addSet.removeValue(forKey: value)
+                removeSet[value] = timeStamp
+            }
+        }else {
+            let lastRemoved = removeSet[value]
+            if lastRemoved == nil || timeStamp > lastRemoved! {
+                removeSet[value] = timeStamp
+            }
+        }
     }
 
-    func exist(_ value: H) {
-
+    func exist(_ value: H) -> Bool {
+        if let _ = addSet[value] {
+            return false
+        }
+        return true
     }
 
-    func merge() {
-
+    func merge() -> [H] {
+        let keys = Array(addSet.keys)
+        return keys
     }
 }
+
+var elementSet = ElementSet<String>()
+elementSet.add(timeStamp: 1, value: "a")
+//1
+print(1,elementSet)
+elementSet.add(timeStamp: 0, value: "a")
+print(elementSet)
+elementSet.add(timeStamp: 1, value: "a")
+print(elementSet)
+elementSet.add(timeStamp: 2, value: "a")
+print(elementSet)
+
+elementSet = ElementSet<String>()
+elementSet.add(timeStamp: 1, value: "a")
+//2
+print(2,elementSet)
+elementSet.remove(timeStamp: 0, value: "a")
+print(elementSet)
+elementSet.remove(timeStamp: 1, value: "a")
+print(elementSet)
+elementSet.remove(timeStamp: 2, value: "a")
+print(elementSet)
+
+elementSet = ElementSet<String>()
+elementSet.remove(timeStamp: 1, value: "a")
+//3
+print(3,elementSet)
+elementSet.add(timeStamp: 0, value: "a")
+print(elementSet)
+elementSet.add(timeStamp: 1, value: "a")
+print(elementSet)
+elementSet.add(timeStamp: 2, value: "a")
+print(elementSet)
+
+elementSet = ElementSet<String>()
+elementSet.remove(timeStamp: 1, value: "a")
+//4
+print(4,elementSet)
+elementSet.remove(timeStamp: 0, value: "a")
+print(elementSet)
+elementSet.remove(timeStamp: 1, value: "a")
+print(elementSet)
+elementSet.remove(timeStamp: 2, value: "a")
+print(elementSet)
